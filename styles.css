@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(245, 211, 166);
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: medium;
+    margin: 25px;
+    padding: 10px;
+    border-color: white;
+}
+
+.title{
+    color: green;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* li::marker {
+    color: green;
+  }*/
+
+.recipes a:visited {
+    color: red;
+}
+
+.recipelist{
+    text-align: left;
+    columns: 2;
+    list-style-type: none;
+}
+
+.column-left {
+    text-align: right;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: red;
+    font-size: xx-small;
+    text-align: center;
+}

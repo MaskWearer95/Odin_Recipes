@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(245, 211, 166);
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: medium;
+    margin: 25px;
+    padding: 10px;
+    border-color: white;
+}
+
+.title{
+    color: green;
+
+}
+
+.othertitles{
+    color: brown;
+}
+
+li::marker {
+    color: green;
+  }
